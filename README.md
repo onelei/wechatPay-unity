@@ -1,6 +1,11 @@
 # wechatPay-unity
 wechatPay plugin for unity.
 
+## NOTICE
+if package name is "com.onelei.wechatpay.unityplugin" , then the "WXPayEntryActivity.java" file must below "wxapi" folder.
+The Activity is used to receive the payment result callback.
+![wechat](./image/wechat.png)
+
 ## android function
 ```
   public void weChatPay(String appId,String partnerId,String prepayId,String nonceStr,
